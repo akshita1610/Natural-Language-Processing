@@ -1,0 +1,44 @@
+YOUTUBE SENTIMENT ANALYSIS SUMMARY REPORT
+==================================================
+Analysis Date: 2026-03-11 19:49:33
+Data Source: youtube_sentiment_results_20260311_194727.csv
+
+BASIC STATISTICS:
+--------------------
+Total Videos: 10
+Total Comments: 167
+
+SENTIMENT DISTRIBUTION:
+------------------------------
+Positive: 123 (73.7%)
+Neutral: 34 (20.4%)
+Negative: 10 (6.0%)
+
+SENTIMENT SCORES:
+--------------------
+Average Compound Score: 0.432
+Average Positive Score: 0.304
+Average Negative Score: 0.020
+Average Neutral Score: 0.663
+
+TOP 5 VIDEOS BY SENTIMENT:
+-----------------------------------
+• Sentiment Analysis: VADER, LSTM &amp; BERT Explain...
+  Channel: AI Academy
+  Comments: 2.0, Avg Score: 0.755
+
+• How to Do Sentiment Analysis in n8n (Step-by-Step ...
+  Channel: Ryan & Matt Data Science
+  Comments: 4.0, Avg Score: 0.702
+
+• Python Sentiment Analysis Project with NLTK and 🤗 ...
+  Channel: Rob Mulla
+  Comments: 50.0, Avg Score: 0.635
+
+• Sentiment Analysis | How May A.I. Help You ? Episo...
+  Channel: Valorem Reply
+  Comments: 1.0, Avg Score: 0.422
+
+• Python Sentiment Analysis Using LLMs: A Step-by-St...
+  Channel: Fabi.ai: Your AI data analyst for all your data
+  Comments: 1.0, Avg Score: 0.402

@@ -1,0 +1,85 @@
+# Sentiment Analysis Pipeline Configuration
+
+# Data Source Configuration
+data_source:
+  type: "youtube"  # Options: twitter, reddit, audio, youtube
+  batch_mode: true  # true for batch processing, false for real-time streaming
+  
+  # Twitter/X Configuration
+  twitter:
+    api_key: "YOUR_TWITTER_API_KEY"
+    api_secret: "YOUR_TWITTER_API_SECRET"
+    access_token: "YOUR_TWITTER_ACCESS_TOKEN"
+    access_token_secret: "YOUR_TWITTER_ACCESS_TOKEN_SECRET"
+    bearer_token: "YOUR_TWITTER_BEARER_TOKEN"
+    query: "sentiment OR emotions OR mood -is:retweet"
+    max_tweets: 100
+    language: "en"
+  
+  # Reddit Configuration
+  reddit:
+    client_id: "YOUR_REDDIT_CLIENT_ID"
+    client_secret: "YOUR_REDDIT_CLIENT_SECRET"
+    user_agent: "Sentiment Analysis Pipeline v1.0"
+    subreddit: "all"
+    limit: 100
+    sort: "hot"  # Options: hot, new, top, rising
+  
+  # YouTube Configuration
+  youtube:
+    api_key: "YOUR_YOUTUBE_API_KEY"
+    search_query: "sentiment analysis OR machine learning OR AI"
+    max_videos: 10
+    max_comments_per_video: 50
+    region_code: "US"
+
+# Preprocessing Configuration
+preprocessing:
+  lowercase: true
+  remove_stopwords: true
+  remove_punctuation: true
+  remove_numbers: false
+  handle_emojis: true
+  min_word_length: 2
+  max_word_length: 20
+
+# Sentiment Analysis Configuration
+sentiment:
+  model: "vader"  # Options: vader, textblob, transformer
+  transformer_model: "cardiffnlp/twitter-roberta-base-sentiment"
+  threshold_positive: 0.05
+  threshold_negative: -0.05
+
+# Storage Configuration
+storage:
+  type: "sqlite"  # Options: csv, sqlite, postgresql
+  csv:
+    output_file: "sentiment_results.csv"
+  sqlite:
+    database_file: "sentiment_analysis.db"
+  postgresql:
+    host: "localhost"
+    port: 5432
+    database: "sentiment_analysis"
+    username: "postgres"
+    password: "password"
+
+# Trend Tracking Configuration
+trends:
+  window_size: 100  # Number of recent items for rolling average
+  time_interval: "hour"  # Options: minute, hour, day
+  keywords: []  # Optional keywords for keyword-level sentiment
+
+# Visualization Configuration
+visualization:
+  output_dir: "visualizations"
+  chart_style: "seaborn"
+  figure_size: [12, 8]
+  save_format: "png"
+  dpi: 300
+
+# Logging Configuration
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR
+  file: "pipeline.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
