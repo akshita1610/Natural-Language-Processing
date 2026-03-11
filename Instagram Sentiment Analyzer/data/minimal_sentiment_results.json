@@ -1,0 +1,95 @@
+{
+  "summary": {
+    "total_posts": 8,
+    "sentiment_distribution": {
+      "positive": 4,
+      "negative": 3,
+      "neutral": 1
+    },
+    "average_confidence": 0.7625,
+    "total_likes": 838,
+    "total_comments": 133
+  },
+  "results": [
+    {
+      "original_text": "Amazing sunset today! Feeling so blessed and grateful for this beautiful view! #sunset #blessed",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "likes": 150,
+      "comments_count": 25,
+      "positive_words_found": 5,
+      "negative_words_found": 0,
+      "processed_text": "amazing sunset today feeling so blessed and grateful for this beautiful view sunset blessed"
+    },
+    {
+      "original_text": "Terrible service at this restaurant. Waited 2 hours for cold food. Very disappointed!",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "likes": 45,
+      "comments_count": 12,
+      "positive_words_found": 0,
+      "negative_words_found": 3,
+      "processed_text": "terrible service at this restaurant waited hours for cold food very disappointed"
+    },
+    {
+      "original_text": "Just an ordinary day at the office. Nothing exciting to report. #work #office",
+      "sentiment": "neutral",
+      "confidence": 0.5,
+      "likes": 78,
+      "comments_count": 8,
+      "positive_words_found": 0,
+      "negative_words_found": 0,
+      "processed_text": "just an ordinary day at the office nothing exciting to report work office"
+    },
+    {
+      "original_text": "Absolutely love my new phone! The camera is incredible and battery life is amazing! #newphone #tech",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "likes": 230,
+      "comments_count": 35,
+      "positive_words_found": 3,
+      "negative_words_found": 0,
+      "processed_text": "absolutely love my new phone the camera is incredible and battery life is amazing newphone tech"
+    },
+    {
+      "original_text": "This movie was so boring and predictable. Waste of time and money. #badmovie",
+      "sentiment": "negative",
+      "confidence": 0.8,
+      "likes": 32,
+      "comments_count": 6,
+      "positive_words_found": 0,
+      "negative_words_found": 3,
+      "processed_text": "this movie was so boring and predictable waste of time and money badmovie"
+    },
+    {
+      "original_text": "Great workout session today! Feeling energized and ready to conquer the week! #fitness #motivation",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "likes": 180,
+      "comments_count": 28,
+      "positive_words_found": 3,
+      "negative_words_found": 0,
+      "processed_text": "great workout session today feeling energized and ready to conquer the week fitness motivation"
+    },
+    {
+      "original_text": "Coffee and books - perfect combination for a lazy Sunday morning. #coffeetime #reading",
+      "sentiment": "positive",
+      "confidence": 0.6,
+      "likes": 95,
+      "comments_count": 15,
+      "positive_words_found": 1,
+      "negative_words_found": 0,
+      "processed_text": "coffee and books perfect combination for a lazy sunday morning coffeetime reading"
+    },
+    {
+      "original_text": "Stuck in traffic again. This commute is getting worse every day. #traffic #frustrated",
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "likes": 28,
+      "comments_count": 4,
+      "positive_words_found": 0,
+      "negative_words_found": 4,
+      "processed_text": "stuck in traffic again this commute is getting worse every day traffic frustrated"
+    }
+  ]
+}

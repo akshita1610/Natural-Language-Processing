@@ -1,0 +1,2 @@
+Requirement already satisfied: beautifulsoup4 in C:\Users\akshi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages (4.12.2)
+Requirement already satisfied: soupsieve>1.2 in C:\Users\akshi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages (from beautifulsoup4) (2.5)

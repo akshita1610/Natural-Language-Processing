@@ -1,0 +1,204 @@
+{
+  "summary": {
+    "total_posts": 8,
+    "sentiment_distribution": {
+      "positive": 3,
+      "negative": 2,
+      "neutral": 3
+    },
+    "average_confidence": 0.38652498092728704,
+    "method": "simple_ml_classifier",
+    "features_used": [
+      "positive_count",
+      "negative_count",
+      "negation_count",
+      "word_count",
+      "char_count",
+      "exclamation_count",
+      "question_count",
+      "uppercase_count",
+      "hashtag_count",
+      "mention_count",
+      "positive_ratio",
+      "negative_ratio"
+    ]
+  },
+  "results": [
+    {
+      "original_text": "Amazing sunset today! Feeling so blessed and grateful for this beautiful view! #sunset #blessed",
+      "sentiment": "positive",
+      "confidence": 0.4050380334534019,
+      "likes": 150,
+      "comments_count": 25,
+      "features": {
+        "positive_count": 5,
+        "negative_count": 0,
+        "negation_count": 0,
+        "word_count": 14,
+        "char_count": 91,
+        "exclamation_count": 2,
+        "question_count": 0,
+        "uppercase_count": 2,
+        "hashtag_count": 2,
+        "mention_count": 0,
+        "positive_ratio": 0.35714285714285715,
+        "negative_ratio": 0.0
+      },
+      "processed_text": "amazing sunset today feeling so blessed and grateful for this beautiful view sunset blessed"
+    },
+    {
+      "original_text": "Terrible service at this restaurant. Waited 2 hours for cold food. Very disappointed!",
+      "sentiment": "negative",
+      "confidence": 0.39163126100499085,
+      "likes": 45,
+      "comments_count": 12,
+      "features": {
+        "positive_count": 0,
+        "negative_count": 3,
+        "negation_count": 0,
+        "word_count": 12,
+        "char_count": 80,
+        "exclamation_count": 1,
+        "question_count": 0,
+        "uppercase_count": 3,
+        "hashtag_count": 0,
+        "mention_count": 0,
+        "positive_ratio": 0.0,
+        "negative_ratio": 0.25
+      },
+      "processed_text": "terrible service at this restaurant waited hours for cold food very disappointed"
+    },
+    {
+      "original_text": "Just an ordinary day at the office. Nothing exciting to report. #work #office",
+      "sentiment": "neutral",
+      "confidence": 0.4142191946773994,
+      "likes": 78,
+      "comments_count": 8,
+      "features": {
+        "positive_count": 0,
+        "negative_count": 0,
+        "negation_count": 1,
+        "word_count": 13,
+        "char_count": 73,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "uppercase_count": 2,
+        "hashtag_count": 2,
+        "mention_count": 0,
+        "positive_ratio": 0.0,
+        "negative_ratio": 0.0
+      },
+      "processed_text": "just an ordinary day at the office nothing exciting to report work office"
+    },
+    {
+      "original_text": "Absolutely love my new phone! The camera is incredible and battery life is amazing! #newphone #tech",
+      "sentiment": "positive",
+      "confidence": 0.39971739374523657,
+      "likes": 230,
+      "comments_count": 35,
+      "features": {
+        "positive_count": 3,
+        "negative_count": 0,
+        "negation_count": 0,
+        "word_count": 16,
+        "char_count": 95,
+        "exclamation_count": 2,
+        "question_count": 0,
+        "uppercase_count": 2,
+        "hashtag_count": 2,
+        "mention_count": 0,
+        "positive_ratio": 0.1875,
+        "negative_ratio": 0.0
+      },
+      "processed_text": "absolutely love my new phone the camera is incredible and battery life is amazing newphone tech"
+    },
+    {
+      "original_text": "This movie was so boring and predictable. Waste of time and money. #badmovie",
+      "sentiment": "negative",
+      "confidence": 0.3647022773482744,
+      "likes": 32,
+      "comments_count": 6,
+      "features": {
+        "positive_count": 0,
+        "negative_count": 3,
+        "negation_count": 0,
+        "word_count": 13,
+        "char_count": 73,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "uppercase_count": 2,
+        "hashtag_count": 1,
+        "mention_count": 0,
+        "positive_ratio": 0.0,
+        "negative_ratio": 0.23076923076923078
+      },
+      "processed_text": "this movie was so boring and predictable waste of time and money badmovie"
+    },
+    {
+      "original_text": "Great workout session today! Feeling energized and ready to conquer the week! #fitness #motivation",
+      "sentiment": "positive",
+      "confidence": 0.40978867181286494,
+      "likes": 180,
+      "comments_count": 28,
+      "features": {
+        "positive_count": 3,
+        "negative_count": 0,
+        "negation_count": 0,
+        "word_count": 14,
+        "char_count": 94,
+        "exclamation_count": 2,
+        "question_count": 0,
+        "uppercase_count": 2,
+        "hashtag_count": 2,
+        "mention_count": 0,
+        "positive_ratio": 0.21428571428571427,
+        "negative_ratio": 0.0
+      },
+      "processed_text": "great workout session today feeling energized and ready to conquer the week fitness motivation"
+    },
+    {
+      "original_text": "Coffee and books - perfect combination for a lazy Sunday morning. #coffeetime #reading",
+      "sentiment": "neutral",
+      "confidence": 0.35467775479639124,
+      "likes": 95,
+      "comments_count": 15,
+      "features": {
+        "positive_count": 1,
+        "negative_count": 0,
+        "negation_count": 0,
+        "word_count": 12,
+        "char_count": 81,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "uppercase_count": 2,
+        "hashtag_count": 2,
+        "mention_count": 0,
+        "positive_ratio": 0.08333333333333333,
+        "negative_ratio": 0.0
+      },
+      "processed_text": "coffee and books perfect combination for a lazy sunday morning coffeetime reading"
+    },
+    {
+      "original_text": "Stuck in traffic again. This commute is getting worse every day. #traffic #frustrated",
+      "sentiment": "neutral",
+      "confidence": 0.35242526057973733,
+      "likes": 28,
+      "comments_count": 4,
+      "features": {
+        "positive_count": 0,
+        "negative_count": 4,
+        "negation_count": 0,
+        "word_count": 13,
+        "char_count": 81,
+        "exclamation_count": 0,
+        "question_count": 0,
+        "uppercase_count": 2,
+        "hashtag_count": 2,
+        "mention_count": 0,
+        "positive_ratio": 0.0,
+        "negative_ratio": 0.3076923076923077
+      },
+      "processed_text": "stuck in traffic again this commute is getting worse every day traffic frustrated"
+    }
+  ]
+}

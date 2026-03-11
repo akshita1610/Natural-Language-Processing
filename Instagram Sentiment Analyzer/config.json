@@ -1,0 +1,41 @@
+{
+  "data_collection": {
+    "max_posts": 100,
+    "max_comments_per_post": 50,
+    "download_videos": false,
+    "download_pictures": false,
+    "save_metadata": true
+  },
+  "preprocessing": {
+    "remove_stopwords": true,
+    "lemmatize": true,
+    "remove_urls": true,
+    "remove_mentions": true,
+    "convert_emojis": true,
+    "min_word_length": 2,
+    "language": "english"
+  },
+  "sentiment_model": {
+    "model_type": "logistic_regression",
+    "embedding_type": "tfidf",
+    "max_features": 10000,
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "visualization": {
+    "color_scheme": {
+      "positive": "#2E8B57",
+      "negative": "#DC143C", 
+      "neutral": "#708090"
+    },
+    "figure_size": [12, 8],
+    "dpi": 300
+  },
+  "paths": {
+    "data_dir": "data",
+    "models_dir": "models",
+    "raw_data": "data/raw",
+    "processed_data": "data/processed",
+    "model_save": "models/sentiment_model.pkl"
+  }
+}
