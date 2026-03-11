@@ -1,0 +1,17 @@
+text,label,sentiment
+I love this product so much!,positive,positive
+This is terrible quality,negative,negative
+The service was excellent,positive,positive
+I hate waiting in line,negative,negative
+The food was amazing,positive,positive
+Poor customer service,negative,negative
+Great value for money,positive,positive
+Not worth the price,negative,negative
+Highly recommend this,positive,positive
+Would not buy again,negative,negative
+Outstanding performance,positive,positive
+Disappointing experience,negative,negative
+Fantastic customer support,positive,positive
+Worst purchase ever,negative,negative
+Love the design and features,positive,positive
+Complete waste of time,negative,negative

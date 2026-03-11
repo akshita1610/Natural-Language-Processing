@@ -1,0 +1,70 @@
+# NLP Text Analysis Pipeline Configuration
+
+# Data Ingestion
+data:
+  input_sources:
+    - type: "text_files"
+      path: "example_data/"
+      extensions: [".txt", ".md"]
+    - type: "csv"
+      path: "example_data/"
+      text_column: "text"
+  
+  preprocessing:
+    remove_duplicates: true
+    min_text_length: 10
+    max_text_length: 10000
+
+# Preprocessing Settings
+preprocessing:
+  lowercase: true
+  remove_punctuation: true
+  remove_numbers: false
+  remove_stopwords: true
+  lemmatize: true
+  min_word_length: 2
+  max_word_length: 20
+
+# Feature Extraction
+features:
+  tfidf:
+    max_features: 5000
+    ngram_range: [1, 2]
+    min_df: 2
+    max_df: 0.95
+  
+  word_embeddings:
+    model: "word2vec"
+    vector_size: 100
+    window: 5
+    min_count: 2
+
+# Models
+models:
+  sentiment:
+    vader: true
+    transformer:
+      enabled: false
+      model_name: "distilbert-base-uncased-finetuned-sst-2-english"
+  
+  classification:
+    algorithms: ["logistic_regression", "naive_bayes"]
+    test_size: 0.2
+    random_state: 42
+
+# Evaluation
+evaluation:
+  metrics: ["accuracy", "precision", "recall", "f1"]
+  cross_validation_folds: 5
+
+# Visualization
+visualization:
+  save_plots: true
+  plot_format: "png"
+  dpi: 300
+
+# Output
+output:
+  save_predictions: true
+  generate_report: true
+  report_format: "markdown"

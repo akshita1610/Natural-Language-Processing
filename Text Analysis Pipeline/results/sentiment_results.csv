@@ -1,0 +1,36 @@
+text,vader_positive,vader_negative,vader_neutral,vader_compound,vader_sentiment,textblob_polarity,textblob_subjectivity,textblob_sentiment,ensemble_sentiment
+"I absolutely love this new phone! The camera quality is amazing and the battery life is incredible.
+
+This is the worst customer service I have ever experienced. They were rude and completely unhelpful.
+
+The movie was okay, nothing special but not terrible either. I probably wouldn't watch it again.
+
+Amazing product! Highly recommend to everyone looking for a reliable solution.
+
+I'm disappointed with the purchase. The quality is poor and it broke after just one week.
+
+The restaurant has a great atmosphere and the food is delicious. Definitely coming back!
+
+Not sure how I feel about this book. Some parts were interesting but overall it was quite boring.
+
+Excellent service! The staff was friendly and professional. Will definitely use them again.
+
+The software is full of bugs and crashes constantly. Complete waste of money.
+
+Pretty average experience. Nothing to complain about but nothing impressive either.",0.289,0.148,0.563,0.987,positive,0.20492719401810305,0.6274200883291792,positive,positive
+I love this product so much!,0.473,0.0,0.527,0.6696,positive,0.375,0.4,positive,positive
+This is terrible quality,0.0,0.508,0.492,-0.4767,negative,-1.0,1.0,negative,negative
+The service was excellent,0.552,0.0,0.448,0.5719,positive,1.0,1.0,positive,positive
+I hate waiting in line,0.0,0.481,0.519,-0.5719,negative,-0.8,0.9,negative,negative
+The food was amazing,0.559,0.0,0.441,0.5859,positive,0.6000000000000001,0.9,positive,positive
+Poor customer service,0.0,0.608,0.392,-0.4767,negative,-0.4,0.6,negative,negative
+Great value for money,0.765,0.0,0.235,0.7579,positive,0.8,0.75,positive,positive
+Not worth the price,0.0,0.357,0.643,-0.1695,negative,-0.15,0.1,negative,negative
+Highly recommend this,0.583,0.0,0.417,0.4201,positive,0.16,0.5399999999999999,positive,positive
+Would not buy again,0.0,0.0,1.0,0.0,neutral,0.0,0.0,neutral,neutral
+Outstanding performance,0.8,0.0,0.2,0.6124,positive,0.5,0.875,positive,positive
+Disappointing experience,0.0,0.762,0.238,-0.4939,negative,-0.6,0.7,negative,negative
+Fantastic customer support,0.863,0.0,0.137,0.743,positive,0.4,0.9,positive,positive
+Worst purchase ever,0.0,0.672,0.328,-0.6249,negative,-1.0,1.0,negative,negative
+Love the design and features,0.512,0.0,0.488,0.6369,positive,0.5,0.6,positive,positive
+Complete waste of time,0.0,0.483,0.517,-0.4215,negative,-0.05,0.2,neutral,negative

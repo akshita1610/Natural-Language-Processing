@@ -1,0 +1,36 @@
+text,file_path,document_id,source_type,label,sentiment,source_file,processed_text,original_length,processed_length,token_count
+"I absolutely love this new phone! The camera quality is amazing and the battery life is incredible.
+
+This is the worst customer service I have ever experienced. They were rude and completely unhelpful.
+
+The movie was okay, nothing special but not terrible either. I probably wouldn't watch it again.
+
+Amazing product! Highly recommend to everyone looking for a reliable solution.
+
+I'm disappointed with the purchase. The quality is poor and it broke after just one week.
+
+The restaurant has a great atmosphere and the food is delicious. Definitely coming back!
+
+Not sure how I feel about this book. Some parts were interesting but overall it was quite boring.
+
+Excellent service! The staff was friendly and professional. Will definitely use them again.
+
+The software is full of bugs and crashes constantly. Complete waste of money.
+
+Pretty average experience. Nothing to complain about but nothing impressive either.",example_data\sample_texts.txt,0,text_files,,,,absolutely love new phone camera quality amazing battery life incredible bad customer service ever experience rude completely unhelpful movie okay nothing special terrible either probably would not watch amazing product highly recommend everyone look reliable solution I m disappointed purchase quality poor break one week restaurant great atmosphere food delicious definitely come back sure feel book part interesting overall quite boring excellent service staff friendly professional definitely use software full bug crash constantly complete waste money pretty average experience nothing complain nothing impressive either,916,625,84
+I love this product so much!,,0,csv,positive,positive,example_data\sample_dataset.csv,love product much,28,17,3
+This is terrible quality,,1,csv,negative,negative,example_data\sample_dataset.csv,terrible quality,24,16,2
+The service was excellent,,2,csv,positive,positive,example_data\sample_dataset.csv,service excellent,25,17,2
+I hate waiting in line,,3,csv,negative,negative,example_data\sample_dataset.csv,hate wait line,22,14,3
+The food was amazing,,4,csv,positive,positive,example_data\sample_dataset.csv,food amazing,20,12,2
+Poor customer service,,5,csv,negative,negative,example_data\sample_dataset.csv,poor customer service,21,21,3
+Great value for money,,6,csv,positive,positive,example_data\sample_dataset.csv,great value money,21,17,3
+Not worth the price,,7,csv,negative,negative,example_data\sample_dataset.csv,worth price,19,11,2
+Highly recommend this,,8,csv,positive,positive,example_data\sample_dataset.csv,highly recommend,21,16,2
+Would not buy again,,9,csv,negative,negative,example_data\sample_dataset.csv,would buy,19,9,2
+Outstanding performance,,10,csv,positive,positive,example_data\sample_dataset.csv,outstanding performance,23,23,2
+Disappointing experience,,11,csv,negative,negative,example_data\sample_dataset.csv,disappointing experience,24,24,2
+Fantastic customer support,,12,csv,positive,positive,example_data\sample_dataset.csv,fantastic customer support,26,26,3
+Worst purchase ever,,13,csv,negative,negative,example_data\sample_dataset.csv,bad purchase ever,19,17,3
+Love the design and features,,14,csv,positive,positive,example_data\sample_dataset.csv,love design feature,28,19,3
+Complete waste of time,,15,csv,negative,negative,example_data\sample_dataset.csv,complete waste time,22,19,3
